@@ -23,11 +23,14 @@ h1 {
     text-align: center;
 }
 h2{
-    color: green;
+    color: black;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 ol{
-    color: red;
+    color: black;
     text-align: left;
 }
 
