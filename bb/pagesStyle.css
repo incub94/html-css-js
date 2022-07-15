@@ -1,0 +1,55 @@
+/*line-height: 18px;Межстрочный интервал*/
+/*height: 50px; Функция для ограничения высоты строки*/
+/*font-weight: normal (обычная жирность шрифта);
+bold(жирный шрифт)*/
+/*font-style: normal (не курсив);
+italic(жирный шрифт),
+oblique(наклонный)*/
+/*text-align: justify;
+(center, left,right, justify)*/
+/*vertical-align: bottom(по нижнему краю);
+Для выравнивания в строе (top, middle, sub и super (нижний и верхний индекс),
+baseline, text-bottom и text-top (по самому нижнему и верхнему краю))*/
+/*text-indent: 30px;
+Функция для выствления красной строки*/
+/*width: 380px;
+Функция для ограничения ширины строки*/
+body {
+    background-color: silver;
+}
+
+h1 {
+    color: royalblue;
+    text-align: center;
+}
+h2{
+    color: green;
+}
+
+ol{
+    color: red;
+    text-align: left;
+}
+
+ul {
+    font-style: italic;
+    text-align: left;
+    width: 650px;
+}
+
+strong {
+    color: red;
+}
+
+em {
+    color: royalblue;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    font-size: 10pt;
+    text-indent: 30px;
+    line-height: 25px;
+    text-align: justify;
+}
