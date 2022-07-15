@@ -22,14 +22,15 @@ h1 {
     color: royalblue;
     text-align: center;
 }
-h2{
+
+h2 {
     color: black;
     border: 3px solid blue;
     border-radius: 10px;
     padding: 12px;
 }
 
-ol{
+ol {
     color: black;
     text-align: left;
 }
@@ -38,6 +39,15 @@ ul {
     font-style: italic;
     text-align: left;
     width: 650px;
+}
+
+li {
+    max-width: 200px;
+    background-color: yellow;
+}
+
+.blue-item {
+    background-color: blueviolet;   
 }
 
 strong {
@@ -56,6 +66,7 @@ p {
     line-height: 25px;
     text-align: justify;
 }
-#main{
+
+#main {
     background-color: aquamarine;
 }
