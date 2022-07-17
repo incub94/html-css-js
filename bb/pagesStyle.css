@@ -19,6 +19,12 @@ body {
     border: 4px solid red;
     border-radius: 13px;
     padding: 5px;
+    box-sizing: border-box;
+    /* размер блока ограничивается контентом или 
+    значением установленой ширины и высоты, content-box размер блока складывается 
+    из его составляющих */
+    width: min-content;
+
 }
 
 h1 {
@@ -31,6 +37,10 @@ h2 {
     border: 3px solid blue;
     border-radius: 10px;
     padding: 12px;
+    width: max-content;
+    /* min-content - для того, 
+    что бы border подстраивался под  минимальные 
+    размеры внутреннего контента, max под максимальные */
 }
 
 ol {
@@ -78,3 +88,9 @@ p {
 /* list-style-type: 
 list-style-position:
 list-style-images:   */
+
+/* Блок заполнения (padding box) - размерами этого блока управляет свойство padding
+Для добавления скроллбаров - overflow: auto или scroll
+Блок границ (border box) - свойство border влияет на размер блока т.к. добавляют свою толщину, 
+outline рисует границу поверх элемента
+Блок отступа (margin box) - свойство margin margin, outline*/
