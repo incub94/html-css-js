@@ -3,6 +3,7 @@ body {
     margin: 0px;
     height: 1024px;
     overflow: hidden;
+    /* прячет контент за рамками блока */
 }
 
 .header {
