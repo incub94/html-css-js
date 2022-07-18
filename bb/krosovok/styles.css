@@ -1,13 +1,19 @@
 body {
     background: linear-gradient(240.51deg, rgba(52, 138, 199, 0.93) -30.38%, rgba(7, 32, 44, 0.85) 114.23%);
     margin: 0px;
+    height: 1024px;
+    overflow: hidden;
 }
 
 .header {
+    position: relative;
+    z-index: 5;
+    /* z-indext - слои, чем выше индекс тем выше слой */
     width: 100%;
     height: 113px;
     background: black;
     padding: 5px 29px;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -46,3 +52,51 @@ body {
 }
 
 /* .menu li a - все селекторы через ПРОБЕЛ  https://www.w3schools.com/cssref/css_selectors.asp */
+
+.main {
+    padding-left: 90px;
+}
+
+.title {
+    font-family: 'Jost', sans-serif;
+    font-size: 150px;
+    color: white;
+    margin-top: 90px;
+    line-height: 90%;
+}
+
+.anthem {
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-top: 55px;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 32px;
+    padding: 18px 60px;
+    margin-top: 55px;
+}
+
+.main img {
+    position: absolute;
+    width: 780px;
+    height: 794px;
+    right: 0;
+    top: 195px;
+}
+
+#circle {
+    position: absolute;
+    width: 1735px;
+    height: 1735px;
+    left: -838px;
+    top: -162px;
+    border: 140px solid #73B803;
+    border-radius: 50%;
+    z-index: 0;
+
+}
