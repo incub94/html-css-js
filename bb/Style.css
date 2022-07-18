@@ -1,6 +1,7 @@
 .example {
     background-color: gray;
     width: 300px;
+    height: 300px;
     border: 3px solid rebeccapurple;
     border-radius: 13px;
     padding: 5px 10px;
@@ -8,6 +9,8 @@
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+
+
 }
 
 .example2 {
@@ -20,6 +23,9 @@
     margin-left: 400px;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
 }
 
 span {
@@ -27,4 +33,32 @@ span {
     margin: 5px;
     display: inline-block;
     /* добавляет отступы строк */
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 28px;
+    font-size: 17px;
+    padding: 16px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-green {
+    background-color: #44c767;
+    border-color: #18ab29;
+}
+
+.btn-green:hover {
+    background-color: #5cbf2a;
+}
+
+.btn-yellow {
+    background-color: #ffed64;
+    border-color: #ffaa22;
+}
+
+.btn-yellow:hover {
+    background-color: #ffab23;
 }
