@@ -52,6 +52,7 @@ span {
 
 .btn-green:hover {
     background-color: #5cbf2a;
+    /*.btn-green:hover стиль элемента при наведении курсора */
 }
 
 .btn-yellow {
