@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(246.24deg, #00094D 0%, #000424 100%);
+    margin: 0px;
+    height: 1314px;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    padding: 85px;
+    padding-left: 40;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #8FE5FF;
+    text-decoration: none;
+    margin: 80px 0px 0px 120px;
+}
+
+ul {
+    float: right;
+    padding-inline-start: 0px;
+    margin-top: 7px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #8FE5FF;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    color: yellow;
+}
+
+.contact {
+    margin-right: 208px;
+}
+
+main {
+    padding-left: 205px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 102px;
+    line-height: 135px;
+    color: #8FE5FF;
+    text-align: justify;
+    margin-top: 135px;
+}
+
+.galaxy {
+    color: #E3F891;
+}
+
+.anthem {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 152%;
+    color: #2EBBE5;
+    text-align: justify;
+    margin-top: 35px;
+}
+
+.space {
+    color: #E3F891;
+}
+
+.main .nebula {
+    position: absolute;
+    width: 703px;
+    height: 703px;
+    right: 138px;
+    top: 195px;
+}
+
+.main .shuttle {
+    position: absolute;
+    width: 110;
+    height: 71px;
+    left: 284px;
+    top: 220px;
+}
+
+.btn1 {
+    background-color: rgba(222, 247, 125, 1);
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 18px 40px;
+    margin-top: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn2 {
+    background-color: black;
+    border: 2px solid #8FE5FF;
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 18px 40px;
+    margin-top: 55px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #8FE5FF;
+}
