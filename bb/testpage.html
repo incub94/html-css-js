@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="ru">
 
 <head>
 	<meta charset="utf-8">
@@ -10,35 +11,93 @@
 </head>
 
 <body>
-	<h1>Что нужно знать, что бы делать сайты</h1>
-	<ol>
-		<li class="blue-item"><strong>HTML</strong></li>
-		<li><em>CSS</em></li>
-		<li class="blue-item">Python</li>
-		<li>SQL</li>
-		<li class="blue-item">JS</li>
-		<li>React</li>
-		<li class="blue-item">SEO</li>
-	</ol>
-	<h2>PHP и JavaScript <span>React</span></h2>
-	<p>Языки програмирования <strong>PHP</strong> и <strong>JS</strong> позволяют сделать сайт динамичным, то есть
-		реагирующим на действия пользователя.
-		например можно сделать красивую выпадающею менюшку или слайдер</p>
-	<h2 style="color: red; border:4px solid gold">Виды скриптов</h2>
-	<p id="main">Для этого пишутся скрипты (англ. <em>script</em> - &laquo;сценарий&raquo;) - программы,
-		позволяющие
-		реагировать на
-		действия пользователя. Скрипты бывают двух видов:</p>
-	<ul>
-		<li>те, которые выполняются на сервере, а результат их выполнения приходит в браузер к пользователю уже в
-			готовом виде. Это скрипты, написанные на языке <strong>PHP</strong>. На нем пишутся <strong>CMS-ки</strong>
-			– системы управления контентом
-		</li>
-		<li>те, которые выполняются прямо в браузере пользователя. Это скрипты, написанные на языке
-			<strong>JavaScript</strong>. Они чаще
-			всего используются для, того чтобы сделать страницу более удобной и красивой.
-		</li>
-	</ul>
+	<nav>
+		<ul>
+			<li><a href="#">Первая</a></li>
+			<li><a href="#">Вторая</a></li>
+			<li><a href="#">Третья</a></li>
+		</ul>
+	</nav>
+
+	<form action="#">
+		<p><i>Пожалуйста, заполните форму. Обязательные поля помечены </i><em>*</em></p>
+		<fieldset>
+			<legend>Контактная информация</legend>
+			<label for="name">Имя <em>*</em></label>
+			<input id="name"><br>
+			<label for="telephone">Телефон</label>
+			<input id="telephone" name="phone" value="800" autofocus><br>
+			<label for="email">Ты кто <em>*</em></label>
+			<input id="email" type="radio">Я<br>
+
+		</fieldset>
+		<fieldset>
+			<legend>Персональная информация</legend>
+			<label for="age">Возраст<em>*</em></label>
+			<input id="age"><br>
+			<label for="gender">Пол</label>
+			<select id="gender">
+				<option value="female">Женщина</option>
+				<option value="male">Мужчина</option>
+			</select><br>
+			<label for="comments">Перечислите личные качества</label>
+			<textarea id="comments"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Выберите ваших любимых животных</legend>
+			<label for="zebra"><input id="zebra" type="checkbox"> Зебра</label>
+			<label for="cat"><input id="cat" type="checkbox"> Кошак</label>
+			<label for="anaconda"><input id="anaconda" type="checkbox" name="snake"> Анаконда</label>
+			<label for="human"><input id="human" type="checkbox"> Человек</label>
+			<label for="elephant"><input id="elephant" type="checkbox"> Слон</label>
+			<label for="wildebeest"><input id="wildebeest" type="checkbox"> Антилопа</label>
+			<label for="pigeon"><input id="pigeon" type="checkbox"> Голубь</label>
+			<label for="crab"><input id="crab" type="checkbox"> Краб</label>
+		</fieldset>
+
+		<fieldset>
+			<legend>How old are you?</legend>
+			<input type="radio" id="child" name="age" value="child">
+			<label for="child">17 years or younger</label><br>
+			<input type="radio" id="adult" name="age" value="adult">
+			<label for="adult">18 - 64 years</label><br>
+			<input type="radio" id="senior" name="age" value="senior">
+			<label for="senior">65 years or older</label>
+
+			<legend>How old are you?</legend>
+			<input type="radio" id="child" name="ag" value="child">
+			<label for="child">17 years or younger</label><br>
+			<input type="radio" id="adult" name="ag" value="adult">
+			<label for="adult">18 - 64 years</label><br>
+			<input type="radio" id="senior" name="ag" value="senior">
+			<label for="senior">65 years or older</label>
+		</fieldset>
+		<p><input type="submit" value="Отправить информацию"></p>
+
+		<p><input type="submit" value="Отправить информацию"></p>
+
+
+		<fieldset>
+			<legend><strong>Форма для регистрации участников</strong></legend>
+			<label for="nm">Имя</label>
+			<input id="nm" name="name" autofocus><br>
+			<label for="sn">Фамилия</label>
+			<input id="sn" name="surname"><br>
+			<label for="em">E-mail</label>
+			<input type="email" id="em" name="mail" placeholder="@mail.ru"><br>
+			<legend>Выберите курс, который вы хотите посещать</legend>
+			<input type="radio" id="php" name="curse">
+			<label for="php">PHP</label><br>
+			<input type="radio" id="lisp" name="curse">
+			<label for="lisp">Lisp</label><br>
+			<label for="biba">Что вы хотите, что бы мы знали о вас?</label><br>
+			<textarea id="biba" name="curse"></textarea><br>
+			<label for="comfirm"><input id="comfirm" type="checkbox" name="checkbox">Подтвердить получение</label>
+
+
+		</fieldset>
+
 </body>
 
 </html>

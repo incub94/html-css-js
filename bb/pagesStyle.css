@@ -14,80 +14,76 @@ baseline, text-bottom и text-top (по самому нижнему и верх�
 Функция для выствления красной строки*/
 /*width: 380px;
 Функция для ограничения ширины строки*/
-body {
-    background-color: silver;
-    border: 4px solid red;
-    border-radius: 13px;
-    padding: 5px;
-    box-sizing: border-box;
-    /* размер блока ограничивается контентом или 
-    значением установленой ширины и высоты, content-box размер блока складывается 
-    из его составляющих */
-    width: min-content;
-
-}
-
-h1 {
-    color: royalblue;
-    text-align: center;
-}
-
-h2 {
-    color: black;
-    border: 3px solid blue;
-    border-radius: 10px;
-    padding: 12px;
-    width: max-content;
-    /* min-content - для того, 
-    что бы border подстраивался под  минимальные 
-    размеры внутреннего контента, max под максимальные */
-}
-
-ol {
-    color: black;
-    text-align: left;
-}
-
-ul {
-    font-style: italic;
-    text-align: left;
-    width: 650px;
-    list-style-type: square;
-}
-
-li {
-    max-width: 200px;
-    background-color: yellow;
-}
-
-.blue-item {
-    background-color: blueviolet;
-}
-
-strong {
-    color: red;
-}
-
-em {
-    color: royalblue;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 600px;
-    font-size: 10pt;
-    text-indent: 30px;
-    line-height: 25px;
-    text-align: justify;
-}
-
-#main {
-    background-color: aquamarine;
-}
 
 /* list-style-type: 
 list-style-position:
 list-style-images:   */
+body {
+    font-family: 'Palatino Linotype', serif;
+    max-width: 600px;
+    padding: 0px 30px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+
+legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+label {
+    width: 186px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+}
+
+input:focus {
+    background: #eaeaea;
+}
+
+input,
+textarea {
+    width: 249px;
+}
+
+textarea {
+    height: 100px;
+    overflow: scroll;
+}
+
+select {
+    width: 254px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 10px;
+}
+
+input[type=submit] {
+    width: 170px;
+    padding: 10px;
+}
 
 /* Блок заполнения (padding box) - размерами этого блока управляет свойство padding
 Для добавления скроллбаров - overflow: auto или scroll

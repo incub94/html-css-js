@@ -114,7 +114,7 @@ main {
 }
 
 .btn2 {
-    background-color: black;
+    background: none;
     border: 2px solid #8FE5FF;
     border-radius: 4px;
     font-size: 25px;
