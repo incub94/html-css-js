@@ -61,9 +61,11 @@ input:focus {
     background: #eaeaea;
 }
 
+
 input,
 textarea {
     width: 249px;
+
 }
 
 textarea {
@@ -84,6 +86,7 @@ input[type=submit] {
     width: 170px;
     padding: 10px;
 }
+
 
 /* Блок заполнения (padding box) - размерами этого блока управляет свойство padding
 Для добавления скроллбаров - overflow: auto или scroll
